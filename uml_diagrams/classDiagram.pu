@@ -1,0 +1,24 @@
+@startuml
+scale 2
+
+class Product {
+    +name: string
+    +price: number
+    +description: string
+    +estrellas: number
+    +image: string
+    +tags: string
+}
+
+class User {
+    +name: string
+    +lastname: string
+    +address: string
+    +age: number
+}
+
+class Category {
+    +name: string
+}
+
+@enduml
